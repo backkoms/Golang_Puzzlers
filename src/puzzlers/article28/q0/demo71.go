@@ -5,6 +5,8 @@ import (
 	"sync"
 )
 
+var test = 0
+
 // ConcurrentMap 代表自制的简易并发安全字典。
 type ConcurrentMap struct {
 	m  map[interface{}]interface{}
